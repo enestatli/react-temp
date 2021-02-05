@@ -13,7 +13,7 @@ const config = {
   dbUri: process.env.DB_URI || 'mongodb://localhost:27017',
   dbName: process.env.DB_NAME,
   newsUrl: process.env.NEWS_API,
-  mongoDbAtlasUri: process.env.MONGODB_ATLAS_URI,
+  mongoDbAtlasUri: 'mongodb://localhost:27017/news-app',
   myApi: process.env.MY_API,
 };
 

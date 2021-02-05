@@ -1,0 +1,30 @@
+# Add comment
+POST http://localhost:3000/api/comment/add
+content-type: application/json
+apiKey: bbe44b27f2ea4464a198c929c1adc49e
+
+{
+"userName": "Cihangir", 
+"userId": "das3857asdf", 
+"commentText": "Hello this is the comment.", 
+"url": "http:/d/dd:3000/api/comment/add"
+}
+
+###
+
+# Save new user 
+GET http://localhost:3000/api/comments/878a08bf3fe001e79e7c0659c01e6626?skip=3&limit=2
+content-type: application/json
+apiKey: bbe44b27f2ea4464a198c929c1adc49e
+
+
+###
+
+# Save new user 
+GET http://localhost:3000/api/comment/like/878a08bf3fe001e79e7c0659c01e6626
+content-type: application/json
+apiKey: bbe44b27f2ea4464a198c929c1adc49e
+
+
+
+
